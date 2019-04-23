@@ -547,3 +547,5 @@ $z::
 	else
 		Send z
 	return
+
+~CapsLock::Suspend, % GetKeyState("CapsLock","t") ? "Off" : "On"
